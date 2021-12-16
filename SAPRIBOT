@@ -1,0 +1,280 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+from os import system, name
+import itertools
+import threading
+import time
+import sys
+import datetime
+from base64 import b64decode,b64encode
+from datetime import date
+
+
+expirydate = datetime.date(2021, 9, 24)
+#expirydate = datetime.date(2021, 8, 30)
+today=date.today()
+def hero():
+
+    def chalo():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\']) :
+                if done:
+                    break
+                sys.stdout.write('\rhacking in the Bcone server for next colour--------- ' + c)
+                sys.stdout.flush()
+                time.sleep(0.1)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def chalo1():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\']):
+                if done:
+                    break
+                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.flush()
+                time.sleep(0.1)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def clear():
+        # for windows
+        if name == 'nt':
+            _ = system('cls')
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = system('clear')
+    def getSum(n):
+        sum=0
+        for digit in str(n):
+            sum+= int(digit)
+        return sum+1
+
+    def lawde_time_pe_khel(n):
+        check=0
+        for digit in (n):
+            if(int(digit)==0):
+                check=check+1
+        return check
+    clear()
+    y=1
+    clear()
+    newperiod=period
+    banner='figlet Hi Sapri'
+    numbers=[]
+    while(y):
+        clear()
+        banner='figlet Hi Sapri'
+        system(banner)
+        print("Contact me on telegram @IDFCMONEY")
+        print("Enter ",newperiod," Bcone Price :")
+        current=input()
+        current=int(current)
+        chalo()
+        print("\n---------Successfully hacked the server-----------")
+        chalo1()
+        print("\n---------Successfully got the colour -------------")
+        print('\n')
+        last2=str(current)[-2:]
+        samjha_maadarchod=lawde_time_pe_khel(last2)
+        if(newperiod%2==0):
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1," : 🔴, RED")
+            else:
+                print(newperiod+1,"  : 🟢, GREEN")
+        else:
+            sum=getSum(current)
+            if(sum%2==0):
+                print(newperiod+1,"   : 🔴, RED")
+            else:
+                print(newperiod+1,"   : 🟢, GREEN")
+        newperiod+=1
+        numbers.append(current)
+        y=input("Do you want to play : Press 1 and 0 to exit \n")
+        if(y==0):
+            y=False
+        if (len(numbers)>11):
+            clear()
+            system('figlet Thank You!!')
+            print("Play on next specified time!!")
+            print("-----------Current Time UP----------")
+            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
+            #print(numbers)
+  
+
+
+
+if(expirydate>today):
+    now = datetime.datetime.now()
+    First = now.replace(hour=13, minute=55, second=0, microsecond=0)
+    Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
+    Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
+    Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
+    Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
+
+    if (now>Third and now<Thirdend):
+            period=320
+            hero()
+    elif(now):
+            period=340
+            hero()
+    elif(False):
+            period=340
+            hero()
+    elif(False):
+            period=360
+            hero()
+    else:
+        banner='figlet Hi Sapri'
+        system(banner)
+        print("Hi!! Thanks for buying the hack")
+        #print("Hi! thanks for trying our DEMO")
+        print("----------Your play time-----------")
+        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
+        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
+        print("12th Dec 2021, 04:00 PM- 04:30 PM")
+        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        print("Please play on the given time, and ")
+        print("If you think it is an error contact")
+        print(" admin on telegram @IDFCMONEY ")
+
+
+
+else:
+    def clear():
+        # for windows
+        if name == 'nt':
+            _ = system('cls')
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = system('clear')
+    code="SUCK"
+    test="LOLISLIFE"
+    night="LIFEISLOL"
+    nextday="FUCK"
+    banner='figlet Hi Sapri'
+    rava=0
+    now = datetime.datetime.now()
+    Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
+    Third = now.replace(hour=15, minute=30, second=0, microsecond=0)
+    Thirdend = now.replace(hour=18, minute=34, second=0, microsecond=0)
+    Final = now.replace(hour=18, minute=35, second=0, microsecond=0)
+    Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
+
+    if(now>Second and now<Secondend):
+            rava=0
+    elif(now>Third and now<Thirdend):
+            rava=300
+    elif(now>Final and now<Finalend):
+            rava=410
+    system(banner)
+    print("*---------*----------*-------------*----------*")
+    print("To Know The Password --- Contact me")
+    print(" on telegram ----@IDFCMONEY ")
+    print(" Recharge Amount :        Total limit " )
+    print(" 1.     1000 INR -------  1 Day (10 Games)")
+    print(" 2.     5000 INR -------  7 Days(50 Games)")
+    print("*---------*----------*--------*---------*--------*")
+    print("Your custom hack can be made request from us.")
+    print("Beware of fraudsters!!!")
+    while(True):
+        print("*--------*--------*-------*---------*---------*")
+        print("Hi, IDFC Here")
+        print(" Dei Sapri")
+        print(" I Told No Im A Hacker ")
+        print("See This ")
+        print("Hack For That Website")
+        print("Want Code? Msg Me In telegram")
+        print("*---------*----------*-------------*----------*")
+        
+        print("            Things Under Maintenence           ")      
+        print("Automatic Recharge :  Under Maintenence")
+        print("Please Ignore Play Timings They Are Under Maintenence")
+        print("*---------*----------*-------------*----------*")
+        
+        
+        print("Enter Correct activation code for Opening Hack ")
+        bhai=input(": ")
+        if(bhai==code or bhai==test):
+            clear()
+            banner='figlet Hi Sapri'
+            system(banner)
+            print("----------Your play time-----------")
+            print("13th Dec 2021, 02:30 PM- 03:00 PM")
+            print("13th Dec 2021, 05:30 PM- 06:00 PM")
+            print("13th Dec 2021, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("me on telegram @IDFCMONEY")
+            print("*---------*----------*-------------*----------*")
+            print("...............Booting Hack .................")
+            time.sleep(20)
+            period=0
+            hero()
+            #print("Today Server is off because I am out ")
+            #rint(" of town, Tomorrow It will work as usual.")
+            #print(" Thank You!!")
+            #print("To all the weekly members next week, cost will be  ")
+            #print(" 4000 INR , because in this week 2 days off " )
+            #print("Thank You!! ")
+            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
+        elif(bhai==nextday):
+            clear()
+            banner='figlet Hi Sapri'
+            system(banner)
+            print("----------Your play time-----------")
+            print("1st-30th Dec 2021, 02:30 PM- 03:00 PM")
+            print("1st-30th Dec 2021, 06:00 PM- 06:30 PM")
+            print("1st-30th Dec 2021, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("*---------*----------*-------------*----------*")
+            print("...............Booting Hack .................")
+            time.sleep(20)
+            period=300
+            hero()
+            #period("Sorry too many people(>20) using hack in same time ")
+            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
+        elif(bhai==night):
+            clear()
+            banner='figlet Hi Sapri'
+            system(banner)
+            print("----------Your play time-----------")
+            print("10th Dec 2021,  08:30 PM- 09:00 PM")
+            print("11th Dec 2021, 08:30 PM- 09:00 PM")
+            print("12th Dec 2021, 08:30 PM- 09:00 PM")
+            print("Please play on the given time, and ")
+            print("If you think it is an error contact")
+            print("*---------*----------*-------------*----------*")
+            print("...............Booting Hack .................")
+            time.sleep(20)
+            period=410
+            hero()
+            sys.exit(" \n \n \n Contact on Telegram @IDFCMONEY")
+        else:
+            clear()
+            banner='figlet Sapri '
+            system(banner)
+            print("Incorrect Activation Code :")
